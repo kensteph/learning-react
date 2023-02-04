@@ -1,0 +1,1 @@
+A component is a bundle of markup, styles, and logic that controls everything about a specific part of the UI (User Interface).
