@@ -54,4 +54,5 @@ const Greeting = ({name='world',gender...}) =>{
 ...  
 }
 
-THE CHIlDREN PROP
+THE CHILDREN PROP
+Anything we pass between the open and close tags, React will supply (make it available) that value to us under "children"
