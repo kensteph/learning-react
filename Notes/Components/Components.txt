@@ -11,3 +11,14 @@ We create a component that bundles up all 3, and allows us to create a library o
 
 Thinking in components
 
+Basic Syntax
+* When you create a react component, You have to start with a Capital Letter.
+
+Why using a Capital Letter to start a component ?
+* The reason is simple. As we already kknow, The JSX code compiled into JavaScript and a component is a function. If we create our
+component with a lower case, React would render an HTML tag instead of processing it as a component. That is why, it's very important to
+use a Capital Letter at the bigining.Use Camel Case to create component. Ex: LoginButton ==> good! login_button ==> Bad.
+
+*When you create a component, you can use arrow or traditional functions.It doesn't matter.
+
+PROPS
