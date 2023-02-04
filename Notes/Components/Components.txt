@@ -1,0 +1,13 @@
+What is a component?
+A component is a bundle of markup, styles, and logic that controls everything about a specific part of the UI (User Interface).
+
+Mechanism of reuse
+Traditional HTML doesn't really have a way to reuse chunk of markup. Many languages use "partilas" to acheive this. A partial is a 
+chunk of HTML that can be inserted into another HTML document.
+
+-In CSS the main mechanism we have for reuse is the "class".
+-In React, components are the main mechanism of reuse. Instead of partials for HTML, classes for CSS, and functions for JavaScript,
+We create a component that bundles up all 3, and allows us to create a library of high-level reusable UI elements.
+
+Thinking in components
+
