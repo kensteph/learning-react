@@ -20,5 +20,38 @@ component with a lower case, React would render an HTML tag instead of processin
 use a Capital Letter at the bigining.Use Camel Case to create component. Ex: LoginButton ==> good! login_button ==> Bad.
 
 *When you create a component, you can use arrow or traditional functions.It doesn't matter.
+ 
+ //Arrow Function
+ const LoginButton = () =>{
+  return (
+    <button>Login</button>
+  )
+ }
+
+ //Traditional Function
+ function LoginButton (){
+  return (
+    <button>Login</button>
+  )
+ }
 
 PROPS
+Props are like argument to a function. They allows us to pass data to our compenents,so that the components 
+can include customizations based on the data.
+
+* Props are objects. That why we can destructure them.For example :
+Instead of :
+const Greeting = (props) =>{
+...  
+}
+You can do : 
+const Greeting = ({name,gender...}) =>{
+...  
+}
+
+*This approch is very useful because it allows us to provide default value to our props.
+const Greeting = ({name='world',gender...}) =>{
+...  
+}
+
+THE CHIlDREN PROP
